@@ -4,7 +4,8 @@
 .site-footer {
     position: relative;
     display: block;
-    background-color: var(--workhomecompany-black);
+    /* background-color: var(--workhomecompany-black); */
+    background-color: black;
     overflow: hidden;
     z-index: 1;
 }
