@@ -6,7 +6,7 @@
     display: block;
     counter-reset: count;
     padding: 120px 0 90px;
-    border-top: 1px solid rgba(var(--Freshflow-base-rgb), .14);
+    border-top: 1px solid rgba(var(--workhomecompany-base-rgb), .14);
     z-index: 1;
 }
 
@@ -88,8 +88,8 @@
     justify-content: center;
     width: 110px;
     height: 110px;
-    border: 1px solid rgba(var(--Freshflow-base-rgb), .14);
-    background-color: var(--Freshflow-white);
+    border: 1px solid rgba(var(--workhomecompany-base-rgb), .14);
+    background-color: var(--workhomecompany-white);
     border-radius: 50%;
     margin: 0 auto;
     -webkit-transition: all 500ms ease;
@@ -104,7 +104,7 @@
     position: relative;
     display: inline-block;
     font-size: 56px;
-    color: var(--Freshflow-primary);
+    color: var(--workhomecompany-primary);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -115,7 +115,7 @@
 }
 
 .process-one ul li:nth-child(2) .process-one__icon span {
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .process-one ul li:nth-child(3) .process-one__icon span {
@@ -130,7 +130,7 @@
     position: absolute;
     right: -22px;
     bottom: 13px;
-    background-color: var(--Freshflow-primary);
+    background-color: var(--workhomecompany-primary);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@
 }
 
 .process-one ul li:nth-child(2) .process-one__count {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .process-one ul li:nth-child(3) .process-one__count {
@@ -156,7 +156,7 @@
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     counter-increment: count;
     content: "0"counter(count);
     transition: all 200ms linear;

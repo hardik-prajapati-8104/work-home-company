@@ -105,7 +105,7 @@
 }
 
 .banner-one__title-color {
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 .banner-one__text {
@@ -155,7 +155,7 @@
 .banner-one__satisfied-partner-img img {
   width: 100%;
   border-radius: 50%;
-  border: 2px solid var(--Freshflow-white);
+  border: 2px solid var(--workhomecompany-white);
 }
 
 .banner-one__satisfied-partner-content {
@@ -177,18 +177,18 @@
 
 .banner-one__satisfied-partner-count-box p {
   font-size: 24px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   font-weight: 700;
   line-height: 24px !important;
-  font-family: var(--Freshflow-font-two) !important;
+  font-family: var(--workhomecompany-font-two) !important;
 }
 
 .banner-one__satisfied-partner-count-box span {
   font-size: 24px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   font-weight: 700;
   line-height: 24px;
-  font-family: var(--Freshflow-font-two);
+  font-family: var(--workhomecompany-font-two);
 }
 
 .banner-one__satisfied-partner-text {
@@ -260,7 +260,7 @@
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: var(--Freshflow-primary);
+  color: var(--workhomecompany-primary);
 }
 
 .banner-one__google-rating-count {
@@ -273,13 +273,13 @@
 
 .banner-one__google-rating-count p {
   font-size: 18px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   font-weight: 500;
 }
 
 .banner-one__google-rating-count span {
   font-size: 18px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   font-weight: 500;
 }
 
@@ -356,13 +356,13 @@
   left: 0;
   width: 30px;
   height: 4px;
-  background: rgba(var(--Freshflow-white-rgb), 1.0);
+  background: rgba(var(--workhomecompany-white-rgb), 1.0);
   border-radius: 2px;
   content: "";
 }
 
 .banner-two__tagline span {
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
   font-size: 18px;
   line-height: 28px;
   font-weight: 700;
@@ -372,7 +372,7 @@
 .banner-two__content-inner h2 {
   position: relative;
   font-size: 70px;
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
   font-weight: 700;
   line-height: 80px;
   text-transform: capitalize;
@@ -390,19 +390,19 @@
 }
 
 .banner-two__btn-box .thm-btn {
-  background-color: var(--Freshflow-primary);
+  background-color: var(--workhomecompany-primary);
 }
 
 .banner-two__btn::before {
-  background-color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-white);
 }
 
 .banner-two__btn::after {
-  background-color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-white);
 }
 
 .banner-two__btn:hover {
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 .banner-two__social {
@@ -419,10 +419,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   font-size: 18px;
   font-weight: 600;
-  font-family: var(--Freshflow-font-two);
+  font-family: var(--workhomecompany-font-two);
   text-transform: uppercase;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -433,7 +433,7 @@
 }
 
 .banner-two__social a:hover {
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 #particles-js {

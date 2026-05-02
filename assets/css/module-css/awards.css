@@ -42,7 +42,7 @@
   position: relative;
   display: block;
   border: 1px solid #E7E7E7;
-  background: var(--Freshflow-white);
+  background: var(--workhomecompany-white);
   border-radius: 12px;
   overflow: hidden;
   -webkit-transition: all 500ms ease;
@@ -51,7 +51,7 @@
 
 .awards-one .faq-one-accrodion .accrodion.active {
   border: 1px solid #E7E7E7;
-  background: var(--Freshflow-white);
+  background: var(--workhomecompany-white);
 }
 
 .awards-one .faq-one-accrodion .accrodion-title {
@@ -69,7 +69,7 @@
   font-weight: 600;
   line-height: 30px;
   letter-spacing: -0.03em;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -84,7 +84,7 @@
   font-family: "Font Awesome 5 Pro";
   font-weight: 700;
   font-size: 17px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   position: absolute;
   top: 50%;
   right: 0;
@@ -100,13 +100,13 @@
   text-align: center;
   width: 40px;
   height: 40px;
-  background-color: rgba(var(--Freshflow-gray-rgb), .21);
+  background-color: rgba(var(--workhomecompany-gray-rgb), .21);
 }
 
 .awards-one .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
   content: "\f107";
-  color: var(--Freshflow-white);
-  background-color: var(--Freshflow-base);
+  color: var(--workhomecompany-white);
+  background-color: var(--workhomecompany-base);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -156,7 +156,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 26px;
-  font-family: var(--Freshflow-font);
+  font-family: var(--workhomecompany-font);
 }
 
 .awards-one .faq-one-accrodion .accrodion-content .inner .content-box .content-box-text {
@@ -184,7 +184,7 @@
   flex-wrap: wrap;
   font-size: 14px;
   font-weight: 600;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
   text-transform: uppercase;
   gap: 7px;
 }
@@ -201,7 +201,7 @@
   flex-wrap: wrap;
   gap: 5px;
   font-size: 14px;
-  color: var(--Freshflow-gray);
+  color: var(--workhomecompany-gray);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -211,7 +211,7 @@
 }
 
 .awards-one .faq-one-accrodion .accrodion-content .inner .content-box .date-and-btn .btn-box a:hover {
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 

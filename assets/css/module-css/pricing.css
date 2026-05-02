@@ -76,7 +76,7 @@
     position: absolute;
     top: -58px;
     right: -30px;
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
     padding: 8px 12px 8px;
     border-radius: 14px;
     transform: rotate(-5deg);
@@ -84,7 +84,7 @@
 
 .pricing-one__discount-box p {
     font-size: 12px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     font-weight: 500;
     line-height: 12px;
 }
@@ -106,7 +106,7 @@
     justify-content: center;
     border-radius: 40px;
     width: 265px;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     border: 2px solid #F1F1F2;
     margin: 0 auto 0;
 }
@@ -127,14 +127,14 @@
     text-align: center;
     font-size: 16px;
     line-height: 16px;
-    color: var(--Freshflow-gray);
+    color: var(--workhomecompany-gray);
     background-color: transparent;
     padding: 14px 17px 14px;
     font-weight: 600;
     cursor: pointer;
     overflow: hidden;
     text-transform: capitalize;
-    font-family: var(--Freshflow-font-two);
+    font-family: var(--workhomecompany-font-two);
     border-radius: 25px;
     letter-spacing: -0.03em;
     transition: all 0.5s linear;
@@ -149,13 +149,13 @@
     bottom: 0;
     left: 0;
     height: 0%;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     transition: all 0.3s ease;
     z-index: -1;
 }
 
 .pricing-one__main-tab-box .tab-buttons .tab-btn.active-btn span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-one__main-tab-box .tab-buttons .tab-btn.active-btn span:before {
@@ -195,7 +195,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     padding: 32px 32px 32px;
     border-radius: 48px;
     overflow: hidden;
@@ -210,7 +210,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     border-radius: 48px;
     opacity: 0;
     transform: translateY(90px);
@@ -228,7 +228,7 @@
     position: absolute;
     top: 30px;
     right: -35px;
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
     padding: 8px 36px 8px;
     transform: rotate(45deg);
 }
@@ -237,15 +237,15 @@
     font-size: 12px;
     line-height: 12px;
     font-weight: 700;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .pricing-one__badge--two {
-    background-color: var(--Freshflow-black);
+    background-color: var(--workhomecompany-black);
 }
 
 .pricing-one__badge--two p {
-    color: var(--Freshflow-extra);
+    color: var(--workhomecompany-extra);
 }
 
 .pricing-one__tab-content-shape-1 {
@@ -316,7 +316,7 @@
     line-height: 14px;
     text-transform: uppercase;
     letter-spacing: -0.03em;
-    border: 1px solid var(--Freshflow-extra);
+    border: 1px solid var(--workhomecompany-extra);
     background-color: #fcfcfc;
     position: relative;
     display: inline-block;
@@ -327,14 +327,14 @@
 }
 
 .pricing-one__tab-content-box:hover .pricing-one__price-pack {
-    background-color: var(--Freshflow-extra);
-    color: var(--Freshflow-black);
+    background-color: var(--workhomecompany-extra);
+    color: var(--workhomecompany-black);
 }
 
 .pricing-one__price {
     font-size: 48px;
     line-height: 48px;
-    font-family: var(--Freshflow-font);
+    font-family: var(--workhomecompany-font);
     font-weight: 700;
     letter-spacing: -0.03em;
     margin-top: 13px;
@@ -344,7 +344,7 @@
 }
 
 .pricing-one__tab-content-box:hover .pricing-one__price {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-one__price .dolar {
@@ -359,7 +359,7 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 14px;
-    color: var(--Freshflow-gray);
+    color: var(--workhomecompany-gray);
     letter-spacing: -0.03em;
     position: relative;
     -webkit-transition: all 500ms ease;
@@ -367,7 +367,7 @@
 }
 
 .pricing-one__tab-content-box:hover .pricing-one__price .clean-count {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-one__text {
@@ -379,7 +379,7 @@
 }
 
 .pricing-one__tab-content-box:hover .pricing-one__text {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-one__tab-content-right {
@@ -434,13 +434,13 @@
     position: relative;
     display: inline-block;
     font-size: 15px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .pricing-one__tab-content-box:hover .pricing-one__points li .icon span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-one__points li .text {
@@ -455,7 +455,7 @@
 }
 
 .pricing-one__tab-content-box:hover .pricing-one__points li .text p {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-one__btn-box {
@@ -484,11 +484,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     font-size: 16px;
     line-height: 16px;
     font-weight: 600;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     padding: 21px 35px 21px;
     border-radius: 28px;
     gap: 10px;
@@ -503,7 +503,7 @@
     right: 0px;
     width: 10%;
     height: 10%;
-    background-color: rgba(var(--Freshflow-primary-rgb), 1);
+    background-color: rgba(var(--workhomecompany-primary-rgb), 1);
     border-radius: 28px;
     background-position: left center;
     transition-timing-function: ease-in-out;
@@ -530,7 +530,7 @@
 .pricing-two {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-secondary);
+    background-color: var(--workhomecompany-secondary);
     padding: 160px 0 90px;
     overflow: hidden;
     z-index: 1;
@@ -591,7 +591,7 @@
     position: absolute;
     top: -35px;
     right: -80px;
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
     padding: 8px 12px 8px;
     border-radius: 14px;
     transform: rotate(-5deg);
@@ -599,7 +599,7 @@
 
 .pricing-two__discount-box p {
     font-size: 12px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     font-weight: 500;
     line-height: 12px;
 }
@@ -621,7 +621,7 @@
     justify-content: center;
     border-radius: 30px;
     width: 175px;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     border: 2px solid #F1F1F2;
     margin: 0 auto 0;
     padding: 2px 2px !important;
@@ -643,14 +643,14 @@
     text-align: center;
     font-size: 16px;
     line-height: 16px;
-    color: var(--Freshflow-gray);
+    color: var(--workhomecompany-gray);
     background-color: transparent;
     padding: 14px 17px 14px;
     font-weight: 600;
     cursor: pointer;
     overflow: hidden;
     text-transform: capitalize;
-    font-family: var(--Freshflow-font-two);
+    font-family: var(--workhomecompany-font-two);
     border-radius: 25px;
     letter-spacing: -0.03em;
     transition: all 0.5s linear;
@@ -665,13 +665,13 @@
     bottom: 0;
     left: 0;
     height: 0%;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     transition: all 0.3s ease;
     z-index: -1;
 }
 
 .pricing-two__main-tab-box .tab-buttons .tab-btn.active-btn span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-two__main-tab-box .tab-buttons .tab-btn.active-btn span:before {
@@ -713,9 +713,9 @@
 .pricing-two__single {
     position: relative;
     display: block;
-    border: 1px solid var(--Freshflow-base);
+    border: 1px solid var(--workhomecompany-base);
     border-radius: 24px;
-    border-right: 4px solid var(--Freshflow-base);
+    border-right: 4px solid var(--workhomecompany-base);
     padding: 48px 48px 40px;
     overflow: hidden;
     margin-bottom: 30px;
@@ -752,8 +752,8 @@
 }
 
 .pricing-two__single--two {
-    border: 1px solid var(--Freshflow-primary);
-    border-right: 4px solid var(--Freshflow-primary);
+    border: 1px solid var(--workhomecompany-primary);
+    border-right: 4px solid var(--workhomecompany-primary);
 }
 
 .pricing-two__shape-1 {
@@ -771,7 +771,7 @@
     position: absolute;
     top: 30px;
     right: -35px;
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
     padding: 8px 36px 8px;
     transform: rotate(45deg) scale(0);
     opacity: 0;
@@ -790,13 +790,13 @@
     font-size: 12px;
     line-height: 12px;
     font-weight: 700;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .pricing-two__pack-name {
     position: relative;
     display: inline-block;
-    background-color: rgba(var(--Freshflow-base-rgb), .10);
+    background-color: rgba(var(--workhomecompany-base-rgb), .10);
     padding: 8px 16px 8px;
     border-radius: 2px;
     -webkit-transition: all 500ms ease;
@@ -805,12 +805,12 @@
 
 .pricing-two__single:hover .pricing-two__pack-name,
 .pricing-two__single.active .pricing-two__pack-name {
-    background-color: rgba(var(--Freshflow-white-rgb), .20);
+    background-color: rgba(var(--workhomecompany-white-rgb), .20);
 }
 
 .pricing-two__pack-name p {
     font-size: 14px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     font-weight: 600;
     line-height: 14px;
     text-transform: uppercase;
@@ -821,15 +821,15 @@
 
 .pricing-two__single:hover .pricing-two__pack-name p,
 .pricing-two__single.active .pricing-two__pack-name p {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-two__single--two .pricing-two__pack-name {
-    background-color: rgba(var(--Freshflow-primary-rgb), .10);
+    background-color: rgba(var(--workhomecompany-primary-rgb), .10);
 }
 
 .pricing-two__single--two .pricing-two__pack-name p {
-    color: var(--Freshflow-primary);
+    color: var(--workhomecompany-primary);
 }
 
 .pricing-two__price-box {
@@ -845,14 +845,14 @@
 
 .pricing-two__single:hover .pricing-two__price-box,
 .pricing-two__single.active .pricing-two__price-box {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-two__price-box .dolar {
     position: relative;
     font-size: 24px;
     line-height: 24px;
-    font-family: var(--Freshflow-font);
+    font-family: var(--workhomecompany-font);
     top: -16px;
 }
 
@@ -860,15 +860,15 @@
     position: relative;
     font-size: 16px;
     line-height: 16px;
-    font-family: var(--Freshflow-font);
-    color: var(--Freshflow-gray);
+    font-family: var(--workhomecompany-font);
+    color: var(--workhomecompany-gray);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .pricing-two__single:hover .pricing-two__price-box .validity,
 .pricing-two__single.active .pricing-two__price-box .validity {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-two__text {
@@ -881,7 +881,7 @@
 
 .pricing-two__single:hover .pricing-two__text,
 .pricing-two__single.active .pricing-two__text {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-two__btn-box {
@@ -910,11 +910,11 @@
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn,
 .pricing-two__single.active .pricing-two__btn-box .thm-btn {
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .pricing-two__btn-box .thm-btn::after {
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn::after,
@@ -924,13 +924,13 @@
 }
 
 .pricing-two__btn-box .thm-btn span {
-    background-color: rgba(var(--Freshflow-white-rgb), .15);
+    background-color: rgba(var(--workhomecompany-white-rgb), .15);
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn span,
 .pricing-two__single.active .pricing-two__btn-box .thm-btn span {
-    background-color: rgba(var(--Freshflow-white-rgb), .20);
-    color: var(--Freshflow-black);
+    background-color: rgba(var(--workhomecompany-white-rgb), .20);
+    color: var(--workhomecompany-black);
     transition-delay: 200ms;
 }
 
@@ -961,14 +961,14 @@
     position: relative;
     display: inline-block;
     font-size: 18px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .pricing-two__single:hover .pricing-two__points li .icon span,
 .pricing-two__single.active .pricing-two__points li .icon span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .pricing-two__points li .text {
@@ -980,14 +980,14 @@
 .pricing-two__points li .text p {
     font-size: 18px;
     font-weight: 500;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .pricing-two__single:hover .pricing-two__points li .text p,
 .pricing-two__single.active .pricing-two__points li .text p {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 /*--------------------------------------------------------------

@@ -4,7 +4,7 @@
 .counter-one {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     padding: 55px 0 39px;
     overflow: hidden;
     z-index: 1;
@@ -62,7 +62,7 @@
     left: -35px;
     width: 2px;
     height: 210px;
-    background-color: rgba(var(--Freshflow-white-rgb), .20);
+    background-color: rgba(var(--workhomecompany-white-rgb), .20);
     transform: translateY(-50%);
 }
 
@@ -77,21 +77,21 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .counter-one__single:hover .counter-one__icon {
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
 }
 
 .counter-one__icon span {
     position: relative;
     display: inline-block;
     font-size: 40px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -117,18 +117,18 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 48px !important;
-    font-family: var(--Freshflow-font-two) !important;
+    font-family: var(--workhomecompany-font-two) !important;
     letter-spacing: -0.02em;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .counter-one__count-box span {
     font-size: 48px;
     font-weight: 700;
     line-height: 48px !important;
-    font-family: var(--Freshflow-font-two) !important;
+    font-family: var(--workhomecompany-font-two) !important;
     letter-spacing: -0.02em;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     text-transform: uppercase;
 }
 
@@ -137,8 +137,8 @@
     font-weight: 700;
     line-height: 18px;
     text-transform: uppercase;
-    font-family: var(--Freshflow-font-two);
-    color: var(--Freshflow-white);
+    font-family: var(--workhomecompany-font-two);
+    color: var(--workhomecompany-white);
     margin-top: 8px;
 }
 
@@ -173,7 +173,7 @@
     bottom: 0;
     left: 0;
     width: 6px;
-    background-color: rgba(var(--Freshflow-white-rgb), 1);
+    background-color: rgba(var(--workhomecompany-white-rgb), 1);
 }
 
 .counter-two ul li:first-child .counter-two__single::before {
@@ -221,7 +221,7 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -235,7 +235,7 @@
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    background-color: rgba(var(--Freshflow-base-rgb), 0.05);
+    background-color: rgba(var(--workhomecompany-base-rgb), 0.05);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -245,14 +245,14 @@
 }
 
 .counter-two__single:hover .counter-two__icon {
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
 }
 
 .counter-two__icon span {
     position: relative;
     display: inline-block;
     font-size: 40px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -260,7 +260,7 @@
 
 .counter-two__single:hover .counter-two__icon span {
     transform: scale(0.9);
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .counter-two__content {
@@ -280,31 +280,31 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 40px !important;
-    font-family: var(--Freshflow-font-two) !important;
+    font-family: var(--workhomecompany-font-two) !important;
     letter-spacing: -0.02em;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .counter-two__single:hover .counter-two__count-box p {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .counter-two__count-box span {
     font-size: 40px;
     font-weight: 700;
     line-height: 40px !important;
-    font-family: var(--Freshflow-font-two) !important;
+    font-family: var(--workhomecompany-font-two) !important;
     letter-spacing: -0.02em;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     text-transform: uppercase;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .counter-two__single:hover .counter-two__count-box span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .counter-two__count-text {
@@ -312,14 +312,14 @@
     font-weight: 700;
     line-height: 25px;
     text-transform: uppercase;
-    color: var(--Freshflow-gray);
+    color: var(--workhomecompany-gray);
     margin-top: 3px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .counter-two__single:hover .counter-two__count-text {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 

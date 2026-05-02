@@ -35,11 +35,11 @@
     position: relative;
     display: flex;
     align-items: center;
-    color: var(--Freshflow-gray);
+    color: var(--workhomecompany-gray);
     font-size: 32px;
     line-height: 32px;
     font-weight: 500;
-    font-family: var(--Freshflow-font-two);
+    font-family: var(--workhomecompany-font-two);
     font-style: normal;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease;
@@ -52,7 +52,7 @@
     top: 0;
     left: 0;
     width: 0;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     white-space: nowrap;
     content: attr(data-hover);
     transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -60,7 +60,7 @@
 
 .sliding-text__list li:hover .sliding-text__title:before {
     width: 100%;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .sliding-text__title img {
@@ -117,11 +117,11 @@
     display: flex;
     align-items: center;
     color: transparent;
-    -webkit-text-stroke: 1px var(--Freshflow-gray);
+    -webkit-text-stroke: 1px var(--workhomecompany-gray);
     font-size: 48px;
     line-height: 48px;
     font-weight: 600;
-    font-family: var(--Freshflow-font);
+    font-family: var(--workhomecompany-font);
     font-style: normal;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease;
@@ -129,7 +129,7 @@
 }
 
 .sliding-text-two__list li:hover .sliding-text-two__title {
-    -webkit-text-stroke: 1px var(--Freshflow-base);
+    -webkit-text-stroke: 1px var(--workhomecompany-base);
 }
 
 .sliding-text-two__title:before {
@@ -138,7 +138,7 @@
     top: 0;
     left: 0;
     width: 0;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     white-space: nowrap;
     content: attr(data-hover);
     transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -146,7 +146,7 @@
 
 .sliding-text-two__list li:hover .sliding-text-two__title:before {
     width: 100%;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .sliding-text-two__title img {
@@ -163,7 +163,7 @@
     position: relative;
     display: block;
     padding: 14px 0 14px;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     z-index: 4;
 }
 
@@ -192,11 +192,11 @@
     position: relative;
     display: flex;
     align-items: center;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
-    font-family: var(--Freshflow-font-two);
+    font-family: var(--workhomecompany-font-two);
     font-style: normal;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease;
@@ -213,7 +213,7 @@
     top: 0;
     left: 0;
     width: 0;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     white-space: nowrap;
     content: attr(data-hover);
     transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -221,7 +221,7 @@
 
 .sliding-text-three__list li:hover .sliding-text-three__title:before {
     width: 100%;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .sliding-text-three__title span {

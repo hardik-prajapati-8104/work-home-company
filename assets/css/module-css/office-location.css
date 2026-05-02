@@ -84,7 +84,7 @@
     bottom: 3px;
     right: 3px;
     left: 3px;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     content: "";
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
@@ -92,7 +92,7 @@
 }
 
 .office-location__point-1:hover .office-location__markar:before {
-    background-color: var(--Freshflow-primary);
+    background-color: var(--workhomecompany-primary);
 }
 
 .office-location__markar:after {
@@ -104,7 +104,7 @@
     right: 0;
     bottom: 0;
     font-size: 16px;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,7 +138,7 @@
     display: block;
     max-width: 250px;
     width: 100%;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 12px 12px 12px;
     border-radius: 12px;
@@ -179,7 +179,7 @@
 .office-location__popup-content span {
     font-size: 14px;
     font-weight: 600;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     position: relative;
     display: block;
     margin-top: 7px;
@@ -340,7 +340,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     opacity: 0;
     transform: translateY(90px);
     transition: background-color 0.7s ease;
@@ -371,14 +371,14 @@
     height: 40px;
     border: 1px solid #DEE2FF;
     border-radius: 50%;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
 }
 
 .office-location-two__location-icon span {
     position: relative;
     display: inline-block;
     font-size: 24px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .office-location-two__location-content {
@@ -396,19 +396,19 @@
 }
 
 .office-location-two__list li:hover .office-location-two__location-content h5 {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .office-location-two__location-content p {
     font-weight: 500;
-    font-family: var(--Freshflow-font-two);
+    font-family: var(--workhomecompany-font-two);
     margin-top: 5px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .office-location-two__list li:hover .office-location-two__location-content p {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .office-location-two__contact-box {
@@ -436,14 +436,14 @@
     height: 40px;
     border: 1px solid #DEE2FF;
     border-radius: 50%;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
 }
 
 .office-location-two__contact-icon span {
     position: relative;
     display: inline-block;
     font-size: 24px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .office-location-two__contact-content {
@@ -461,17 +461,17 @@
 }
 
 .office-location-two__list li:hover .office-location-two__contact-content h3 {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .office-location-two__contact-content a {
     font-weight: 600;
-    font-family: var(--Freshflow-font-two);
-    color: var(--Freshflow-gray);
+    font-family: var(--workhomecompany-font-two);
+    color: var(--workhomecompany-gray);
 }
 
 .office-location-two__list li:hover .office-location-two__contact-content a {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .office-location-two__contact-content a span {
@@ -484,7 +484,7 @@
 }
 
 .office-location-two__list li:hover .office-location-two__contact-content a span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .office-location-two__view {
@@ -500,9 +500,9 @@
     border: 2px solid #DEE2FF;
     font-size: 14px;
     font-weight: 600;
-    font-family: var(--Freshflow-font-two);
-    color: var(--Freshflow-gray);
-    background-color: var(--Freshflow-white);
+    font-family: var(--workhomecompany-font-two);
+    color: var(--workhomecompany-gray);
+    background-color: var(--workhomecompany-white);
     padding: 7px 20px 6px;
     border-radius: 22px;
     overflow: hidden;
@@ -510,13 +510,13 @@
 }
 
 .office-location-two__view a:hover {
-    color: var(--Freshflow-black);
-    border: 2px solid var(--Freshflow-extra);
+    color: var(--workhomecompany-black);
+    border: 2px solid var(--workhomecompany-extra);
 }
 
 .office-location-two__view a::after {
     content: "";
-    background-color: var(--Freshflow-extra);
+    background-color: var(--workhomecompany-extra);
     position: absolute;
     top: 0;
     width: 100%;

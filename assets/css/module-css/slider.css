@@ -4,7 +4,7 @@
 .main-slider {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-black);
+    background-color: var(--workhomecompany-black);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     overflow: hidden;
@@ -113,7 +113,7 @@
     position: relative;
     display: block;
     font-size: 64px;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     font-weight: 700;
     line-height: 75px;
     text-transform: capitalize;
@@ -133,7 +133,7 @@
 }
 
 .main-slider__title span {
-    color: var(--Freshflow-extra);
+    color: var(--workhomecompany-extra);
 }
 
 .main-slider .swiper-slide-active .main-slider__title {
@@ -151,7 +151,7 @@
 .main-slider__text {
     position: relative;
     display: block;
-    color: rgba(var(--Freshflow-white-rgb), 1);
+    color: rgba(var(--workhomecompany-white-rgb), 1);
     font-size: 18px;
     line-height: 28px;
     opacity: 0;
@@ -214,16 +214,16 @@
 }
 
 .main-slider__btn-box .thm-btn::after {
-    background-color: rgba(var(--Freshflow-white-rgb), 1);
+    background-color: rgba(var(--workhomecompany-white-rgb), 1);
 }
 
 .main-slider__btn-box .thm-btn:hover span {
-    background-color: var(--Freshflow-black);
-    color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-black);
+    color: var(--workhomecompany-white);
 }
 
 .main-slider__btn-box .thm-btn:hover {
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .main-slider__nav {
@@ -256,13 +256,13 @@
     width: 50px;
     height: 50px;
     font-size: 20px;
-    color: rgba(var(--Freshflow-extra-rgb), 1);
+    color: rgba(var(--workhomecompany-extra-rgb), 1);
     opacity: 1;
     margin: 0;
     text-align: center;
     transition: all 500ms ease;
     border-radius: 12px;
-    border: 1px solid rgba(var(--Freshflow-white-rgb), .30);
+    border: 1px solid rgba(var(--workhomecompany-white-rgb), .30);
     background: transparent;
     padding: 14px 0;
 }
@@ -270,9 +270,9 @@
 
 .main-slider__nav .swiper-button-next:hover,
 .main-slider__nav .swiper-button-prev:hover {
-    color: var(--Freshflow-black);
-    background-color: rgba(var(--Freshflow-extra-rgb), 1);
-    border: 1px solid rgba(var(--Freshflow-extra-rgb), 1);
+    color: var(--workhomecompany-black);
+    background-color: rgba(var(--workhomecompany-extra-rgb), 1);
+    border: 1px solid rgba(var(--workhomecompany-extra-rgb), 1);
 }
 
 .main-slider__nav .swiper-button-next::after,

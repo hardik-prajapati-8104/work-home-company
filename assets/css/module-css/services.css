@@ -4,7 +4,7 @@
 .services-one {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-secondary);
+    background-color: var(--workhomecompany-secondary);
     padding: 120px 0 93px;
     counter-reset: count;
     overflow: hidden;
@@ -114,7 +114,7 @@
     left: -96px;
     right: 70px;
     bottom: -123px;
-    border: 1px dashed var(--Freshflow-base);
+    border: 1px dashed var(--workhomecompany-base);
     border-radius: 32px;
 }
 
@@ -207,7 +207,7 @@
     position: relative;
     display: inline-block;
     font-size: 44px;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -224,8 +224,8 @@
 }
 
 .services-one__experience-content p {
-    font-family: var(--Freshflow-font-two);
-    color: var(--Freshflow-white);
+    font-family: var(--workhomecompany-font-two);
+    color: var(--workhomecompany-white);
     font-weight: 500;
     font-size: 12px;
     line-height: 12px;
@@ -237,8 +237,8 @@
 .services-one__experience-content p span {
     font-size: 28px;
     line-height: 18px !important;
-    font-family: var(--Freshflow-font-two) !important;
-    color: var(--Freshflow-white);
+    font-family: var(--workhomecompany-font-two) !important;
+    color: var(--workhomecompany-white);
     font-weight: 700;
 }
 
@@ -293,8 +293,8 @@
     font-size: 14px;
     line-height: 27px;
     font-weight: 600;
-    color: var(--Freshflow-gray);
-    font-family: var(--Freshflow-font-two);
+    color: var(--workhomecompany-gray);
+    font-family: var(--workhomecompany-font-two);
     letter-spacing: -0.54px;
     counter-increment: count;
     content: "0"counter(count);
@@ -305,7 +305,7 @@
 }
 
 .services-one__services-list li:hover .services-one__count:before {
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .services-one__count::after {
@@ -315,14 +315,14 @@
     right: -6px;
     width: 2px;
     height: 13px;
-    background-color: var(--Freshflow-gray);
+    background-color: var(--workhomecompany-gray);
     transform: rotate(14deg);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .services-one__services-list li:hover .services-one__count::after {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .services-one__content {
@@ -338,16 +338,16 @@
     font-weight: 600;
     line-height: 34px;
     letter-spacing: -0.02em;
-    font-family: var(--Freshflow-font);
+    font-family: var(--workhomecompany-font);
     margin-bottom: 1px;
 }
 
 .services-one__title a {
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .services-one__title a:hover {
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .services-one__arrow {
@@ -363,8 +363,8 @@
     width: 46px;
     height: 46px;
     font-size: 20px;
-    color: var(--Freshflow-white);
-    background-color: var(--Freshflow-base);
+    color: var(--workhomecompany-white);
+    background-color: var(--workhomecompany-base);
     border-radius: 50%;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -374,7 +374,7 @@
 }
 
 .services-one__arrow a:hover {
-    background-color: var(--Freshflow-primary);
+    background-color: var(--workhomecompany-primary);
 }
 
 .services-one__services-list li:hover .services-one__arrow a {
@@ -443,7 +443,7 @@
 .services-two {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-secondary);
+    background-color: var(--workhomecompany-secondary);
     counter-reset: count;
     padding: 160px 0 100px;
     overflow: hidden;
@@ -575,7 +575,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     border: 1px solid #F1F1F2;
     box-shadow: 0px 2px 1px rgba(3, 4, 28, 0.08);
     border-radius: 12px;
@@ -606,7 +606,7 @@
 }
 
 .services-two__services-list li:hover .services-two__icon {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .services-two__services-list li:nth-child(2) .services-two__icon {
@@ -626,26 +626,26 @@
 }
 
 .services-two__services-list li:nth-child(2):hover .services-two__icon {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .services-two__services-list li:nth-child(3):hover .services-two__icon {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .services-two__services-list li:nth-child(4):hover .services-two__icon {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .services-two__services-list li:nth-child(5):hover .services-two__icon {
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
 }
 
 .services-two__icon span {
     position: relative;
     display: inline-block;
     font-size: 40px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -653,7 +653,7 @@
 
 .services-two__services-list li:hover .services-two__icon span {
     transform: scale(0.9);
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .services-two__title-box {
@@ -673,8 +673,8 @@
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
-    color: var(--Freshflow-gray);
-    font-family: var(--Freshflow-font);
+    color: var(--workhomecompany-gray);
+    font-family: var(--workhomecompany-font);
     counter-increment: count;
     content: "0"counter(count);
     transition: all 200ms linear;
@@ -689,7 +689,7 @@
     right: -6px;
     width: 2px;
     height: 13px;
-    background-color: var(--Freshflow-gray);
+    background-color: var(--workhomecompany-gray);
     transform: rotate(14deg);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -699,15 +699,15 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 34px;
-    font-family: var(--Freshflow-font);
+    font-family: var(--workhomecompany-font);
 }
 
 .services-two__title a {
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .services-two__services-list li:hover .services-two__title a {
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .services-two__text-and-btn-box {
@@ -727,7 +727,7 @@
 }
 
 .services-two__services-list li:hover .services-two__text {
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .services-two__btn-box {
@@ -741,7 +741,7 @@
     align-items: center;
     gap: 7px;
     font-weight: 500;
-    color: var(--Freshflow-gray);
+    color: var(--workhomecompany-gray);
     border: 2px solid #F1F1F2;
     padding: 15px 18px 15px;
     border-radius: 30px;
@@ -751,13 +751,13 @@
 }
 
 .services-two__btn-box a:hover {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     border: 2px solid transparent;
 }
 
 .services-two__btn-box a::after {
     content: "";
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     position: absolute;
     top: 0;
     width: 100%;
@@ -804,7 +804,7 @@
 .services-three {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-secondary);
+    background-color: var(--workhomecompany-secondary);
     padding: 120px 0 120px;
     z-index: 1;
 }
@@ -853,7 +853,7 @@
     max-width: 240px;
     width: 100%;
     border-radius: 12px;
-    background-color: var(--Freshflow-white);
+    background-color: var(--workhomecompany-white);
     transition: all 0.5s linear;
     z-index: 1;
 }
@@ -866,7 +866,7 @@
     bottom: 0;
     left: 0;
     height: 0%;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     transition: all 0.3s ease;
     z-index: -1;
 }
@@ -883,12 +883,12 @@
     position: relative;
     display: inline-block;
     font-size: 52px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     transition: all 0.3s ease;
 }
 
 .services-three__main-tab-box .tab-buttons .tab-btn.active-btn .services-three__tab-buttons-single i {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .services-three__main-tab-box .tab-buttons .tab-btn .services-three__tab-buttons-single span {
@@ -897,15 +897,15 @@
     text-align: center;
     font-size: 20px;
     line-height: 30px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
     font-weight: 600;
     text-transform: capitalize;
-    font-family: var(--Freshflow-font-two);
+    font-family: var(--workhomecompany-font-two);
     margin-top: 10px;
 }
 
 .services-three__main-tab-box .tab-buttons .tab-btn.active-btn .services-three__tab-buttons-single span {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .services-three__main-tab-box .tabs-content {
@@ -992,12 +992,12 @@
     font-size: 30px;
     font-weight: 600;
     line-height: 40px;
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     text-transform: capitalize;
 }
 
 .services-three__tab-text {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
     margin: 20px 0 25px;
 }
 
@@ -1017,8 +1017,8 @@
 .services-three__tab-doller {
     font-size: 34px;
     font-weight: 700;
-    color: var(--Freshflow-white);
-    font-family: var(--Freshflow-font-two);
+    color: var(--workhomecompany-white);
+    font-family: var(--workhomecompany-font-two);
 }
 
 .services-three__tab-doller span {
@@ -1030,7 +1030,7 @@
 }
 
 .services-three__tab-doller-sub-title {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .services-three__btn-box {
@@ -1040,12 +1040,12 @@
 }
 
 .services-three__btn-box .thm-btn {
-    background-color: var(--Freshflow-extra);
-    color: var(--Freshflow-black);
+    background-color: var(--workhomecompany-extra);
+    color: var(--workhomecompany-black);
 }
 
 .services-three__btn-box .thm-btn span {
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 
@@ -1132,20 +1132,20 @@
     position: relative;
     display: inline-block;
     font-size: 20px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .services-details__points li p {
     font-size: 22px;
     font-weight: 500;
     line-height: 32px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .services-details__service-single-box {
     position: relative;
     display: block;
-    background-color: var(--Freshflow-secondary);
+    background-color: var(--workhomecompany-secondary);
     border: 1px solid #E7E7E7;
     border-radius: 12px;
     padding: 40px 50px 16px;
@@ -1167,7 +1167,7 @@
     position: relative;
     display: inline-block;
     font-size: 76px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -1254,7 +1254,7 @@
     position: relative;
     display: inline-block;
     font-size: 20px;
-    color: var(--Freshflow-base);
+    color: var(--workhomecompany-base);
 }
 
 .services-details__points-list-3 li p {
@@ -1262,7 +1262,7 @@
     font-weight: 500;
     letter-spacing: -0.02em;
     line-height: 32px;
-    color: var(--Freshflow-black);
+    color: var(--workhomecompany-black);
 }
 
 .services-details__points-img {
@@ -1303,7 +1303,7 @@
     position: relative;
     display: block;
     border: 1px solid #E7E7E7;
-    background-color: var(--Freshflow-secondary);
+    background-color: var(--workhomecompany-secondary);
     border-radius: 16px;
     padding: 40px 25px 30px;
     margin-bottom: 50px;
@@ -1313,7 +1313,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
-    font-family: var(--Freshflow-font);
+    font-family: var(--workhomecompany-font);
     text-transform: uppercase;
     margin-bottom: 21px;
 }
@@ -1340,8 +1340,8 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
-    font-family: var(--Freshflow-font-two);
-    color: var(--Freshflow-black);
+    font-family: var(--workhomecompany-font-two);
+    color: var(--workhomecompany-black);
     border: 1px solid #D5D5FF;
     border-radius: 8px;
     padding: 17px 20px 17px;
@@ -1351,7 +1351,7 @@
 
 .services-details__service-list li:hover a,
 .services-details__service-list li.active a {
-    color: var(--Freshflow-white);
+    color: var(--workhomecompany-white);
 }
 
 .services-details__service-list li a::before {
@@ -1362,7 +1362,7 @@
     right: 0;
     bottom: 0;
     border-radius: 8px;
-    background-color: var(--Freshflow-base);
+    background-color: var(--workhomecompany-base);
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;

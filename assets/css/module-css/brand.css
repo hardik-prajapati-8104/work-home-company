@@ -11,8 +11,8 @@
     position: relative;
     display: block;
     padding: 60px 0 60px;
-    border-top: 1px dashed rgba(var(--Freshflow-base-rgb), .30);
-    border-bottom: 1px dashed rgba(var(--Freshflow-base-rgb), .30);
+    border-top: 1px dashed rgba(var(--workhomecompany-base-rgb), .30);
+    border-bottom: 1px dashed rgba(var(--workhomecompany-base-rgb), .30);
     background: linear-gradient(180deg, #F3F4FF 0%, #FFFFFF 100%);
 }
 

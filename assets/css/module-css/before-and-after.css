@@ -66,7 +66,7 @@
   position: relative;
   display: block;
   border-radius: 20px;
-  border: 4px solid var(--Freshflow-white);
+  border: 4px solid var(--workhomecompany-white);
 }
 
 .before-and-after__img-box .before-after {
@@ -192,7 +192,7 @@
   right: 0px;
   bottom: 0px;
   content: "";
-  border: 4px solid var(--Freshflow-white);
+  border: 4px solid var(--workhomecompany-white);
   border-radius: 24px;
   z-index: 1;
   transition: all 500ms ease;
@@ -200,7 +200,7 @@
 
 .swiper-slide-active .before-and-after__img-holder:before,
 .swiper-slide-thumb-active .before-and-after__img-holder:before {
-  border: 4px solid var(--Freshflow-base);
+  border: 4px solid var(--workhomecompany-base);
 }
 
 .before-and-after__img-holder>img {
@@ -221,9 +221,9 @@
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  font-family: var(--Freshflow-font-two);
-  color: var(--Freshflow-black);
-  background-color: var(--Freshflow-white);
+  font-family: var(--workhomecompany-font-two);
+  color: var(--workhomecompany-black);
+  background-color: var(--workhomecompany-white);
   padding: 8px 20px 8px;
   border-radius: 12px;
 }
@@ -269,12 +269,12 @@
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 .before-and-after__points li p {
   font-weight: 600;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .before-and-after__img-list {
@@ -292,7 +292,7 @@
 .before-and-after__img-list-img {
   position: relative;
   display: block;
-  border: 10px solid var(--Freshflow-white);
+  border: 10px solid var(--workhomecompany-white);
   border-radius: 50%;
   overflow: hidden;
 }
@@ -304,7 +304,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--Freshflow-black-rgb), .70);
+  background-color: rgba(var(--workhomecompany-black-rgb), .70);
   opacity: 0;
   transform: translateY(90px);
   transition: background-color 0.7s ease;
@@ -334,7 +334,7 @@
 .before-after-two {
   position: relative;
   display: block;
-  background-color: var(--Freshflow-secondary);
+  background-color: var(--workhomecompany-secondary);
   padding: 120px 0 35px;
   overflow: hidden;
   z-index: 1;
@@ -398,7 +398,7 @@
   position: relative;
   display: block;
   border-radius: 20px;
-  border: 4px solid var(--Freshflow-white);
+  border: 4px solid var(--workhomecompany-white);
 }
 
 .before-after-two__img-box .before-after {
@@ -477,7 +477,7 @@
 }
 
 .before-after-two__img-box .twentytwenty-handle {
-  background-color: var(--Freshflow-base);
+  background-color: var(--workhomecompany-base);
 }
 
 .before-after-two__img-box .twentytwenty-overlay {
@@ -496,9 +496,9 @@
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  font-family: var(--Freshflow-font-two);
-  color: var(--Freshflow-black);
-  background-color: var(--Freshflow-white);
+  font-family: var(--workhomecompany-font-two);
+  color: var(--workhomecompany-black);
+  background-color: var(--workhomecompany-white);
   padding: 8px 20px 8px;
   border-radius: 12px;
 }
@@ -553,7 +553,7 @@
 
 .before-after-two__client-img img {
   width: 100%;
-  border: 2px solid var(--Freshflow-white);
+  border: 2px solid var(--workhomecompany-white);
   border-radius: 50%;
 }
 
@@ -571,8 +571,8 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px !important;
-  font-family: var(--Freshflow-font-two) !important;
-  color: var(--Freshflow-black);
+  font-family: var(--workhomecompany-font-two) !important;
+  color: var(--workhomecompany-black);
   text-transform: uppercase;
   top: -1px;
 }
@@ -581,8 +581,8 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px !important;
-  font-family: var(--Freshflow-font-two) !important;
-  color: var(--Freshflow-black);
+  font-family: var(--workhomecompany-font-two) !important;
+  color: var(--workhomecompany-black);
   text-transform: uppercase;
 }
 
@@ -592,7 +592,7 @@
 }
 
 .before-after-two__btn-box .thm-btn {
-  background-color: var(--Freshflow-primary);
+  background-color: var(--workhomecompany-primary);
 }
 
 .before-after-two__points-box {
@@ -625,12 +625,12 @@
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 .before-after-two__points li p {
   font-weight: 600;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .before-after-two__right {
@@ -647,7 +647,7 @@
   position: relative;
   display: block;
   border-radius: 20px;
-  border: 4px solid var(--Freshflow-white);
+  border: 4px solid var(--workhomecompany-white);
 }
 
 .before-after-two__img-box-2 .before-after {
@@ -726,7 +726,7 @@
 }
 
 .before-after-two__img-box-2 .twentytwenty-handle {
-  background-color: var(--Freshflow-base);
+  background-color: var(--workhomecompany-base);
 }
 
 .before-after-two__img-box-2 .twentytwenty-overlay {
@@ -759,11 +759,11 @@
   position: relative;
   display: flex;
   align-items: center;
-  color: var(--Freshflow-gray);
+  color: var(--workhomecompany-gray);
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
-  font-family: var(--Freshflow-font);
+  font-family: var(--workhomecompany-font);
   font-style: normal;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease;
@@ -776,7 +776,7 @@
   top: 0;
   left: 0;
   width: 0;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
   white-space: nowrap;
   content: attr(data-hover);
   transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -784,14 +784,14 @@
 
 .before-after-two__sliding-text-list li:hover .before-after-two__sliding-title:before {
   width: 100%;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 .before-after-two__sliding-title span {
   margin-left: 30px;
   position: relative;
   font-size: 24px;
-  color: var(--Freshflow-gray);
+  color: var(--workhomecompany-gray);
 }
 
 /*--------------------------------------------------------------
@@ -808,7 +808,7 @@
   position: relative;
   display: block;
   border-radius: 20px;
-  border: 4px solid var(--Freshflow-white);
+  border: 4px solid var(--workhomecompany-white);
 }
 
 .before-after-three__img-box .before-after {
@@ -887,7 +887,7 @@
 }
 
 .before-after-three__img-box .twentytwenty-handle {
-  background-color: var(--Freshflow-base);
+  background-color: var(--workhomecompany-base);
 }
 
 .before-after-three__img-box .twentytwenty-horizontal .twentytwenty-handle:before {
@@ -915,9 +915,9 @@
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  font-family: var(--Freshflow-font-two);
-  color: var(--Freshflow-white);
-  background-color: var(--Freshflow-base);
+  font-family: var(--workhomecompany-font-two);
+  color: var(--workhomecompany-white);
+  background-color: var(--workhomecompany-base);
   padding: 8px 20px 8px;
   border-radius: 12px;
 }

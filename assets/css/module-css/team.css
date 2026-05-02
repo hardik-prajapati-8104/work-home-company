@@ -89,7 +89,7 @@
   bottom: 0;
   right: 0;
   opacity: 0;
-  background-color: var(--Freshflow-black);
+  background-color: var(--workhomecompany-black);
   transition: opacity 0.5s ease;
   transition: all 0.5s ease;
   z-index: 1;
@@ -101,7 +101,7 @@
 
 .team-one__img img {
   width: 100%;
-  border: 2px solid var(--Freshflow-white);
+  border: 2px solid var(--workhomecompany-white);
   border-radius: 27px;
 }
 
@@ -125,11 +125,11 @@
 }
 
 .team-one__title a {
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .team-one__title a:hover {
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 .team-one__sub-title {
@@ -151,15 +151,15 @@
   width: 40px;
   height: 40px;
   font-size: 16px;
-  color: var(--Freshflow-base);
-  border: 1px solid var(--Freshflow-base);
+  color: var(--workhomecompany-base);
+  border: 1px solid var(--workhomecompany-base);
   border-radius: 50%;
 }
 
 .team-one__arrow a:hover {
-  color: var(--Freshflow-white);
-  border: 1px solid var(--Freshflow-base);
-  background-color: var(--Freshflow-base);
+  color: var(--workhomecompany-white);
+  border: 1px solid var(--workhomecompany-base);
+  background-color: var(--workhomecompany-base);
 }
 
 .team-one__share-and-social {
@@ -183,9 +183,9 @@
   width: 52px;
   height: 52px;
   font-size: 20px;
-  color: var(--Freshflow-white);
-  background-color: var(--Freshflow-base);
-  border: 2px solid var(--Freshflow-white);
+  color: var(--workhomecompany-white);
+  background-color: var(--workhomecompany-base);
+  border: 2px solid var(--workhomecompany-white);
   border-radius: 50%;
 }
 
@@ -193,7 +193,7 @@
   position: absolute;
   left: 26px;
   top: 4px;
-  background-color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-white);
   display: flex;
   align-items: center;
   gap: 5px;
@@ -224,15 +224,15 @@
   width: 32px;
   height: 32px;
   font-size: 14px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
   background-color: #F1F1F2;
   border-radius: 50%;
 }
 
 
 .team-one__social a:hover {
-  color: var(--Freshflow-white);
-  background-color: var(--Freshflow-base);
+  color: var(--workhomecompany-white);
+  background-color: var(--workhomecompany-base);
 }
 
 .team-one__carousel.owl-theme .owl-nav {
@@ -248,9 +248,9 @@
   width: 50px;
   line-height: 50px;
   border-radius: 11px;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
   background-color: transparent;
-  border: 1px solid var(--Freshflow-base);
+  border: 1px solid var(--workhomecompany-base);
   font-size: 16px;
   margin: 0;
   -webkit-transition: all 500ms ease;
@@ -263,9 +263,9 @@
   width: 50px;
   line-height: 50px;
   border-radius: 11px;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
   background-color: transparent;
-  border: 1px solid var(--Freshflow-base);
+  border: 1px solid var(--workhomecompany-base);
   font-size: 16px;
   margin: 0;
   text-align: center;
@@ -293,8 +293,8 @@
 
 .team-one__carousel.owl-theme .owl-nav .owl-next:hover,
 .team-one__carousel.owl-theme .owl-nav .owl-prev:hover {
-  background-color: var(--Freshflow-base);
-  color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-base);
+  color: var(--workhomecompany-white);
 }
 
 .team-page {
@@ -409,7 +409,7 @@
 .team-two__buttons {
   position: relative;
   display: block;
-  background-color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-white);
   border-radius: 24px;
   border: 1px solid #F1F1F2;
   padding: 23px 23px 21px;
@@ -420,7 +420,7 @@
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons {
-  border: 1px solid var(--Freshflow-base);
+  border: 1px solid var(--workhomecompany-base);
 }
 
 .team-two__buttons::before {
@@ -431,7 +431,7 @@
   right: 0;
   bottom: 0;
   border-radius: 24px;
-  background-color: var(--Freshflow-base);
+  background-color: var(--workhomecompany-base);
   transform: scaleX(0.7) rotateX(20deg);
   opacity: 0;
   transition: all 0.4s linear;
@@ -468,7 +468,7 @@
 
 .team-two__buttons-experience-years-count h3 {
   font-size: 32px;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.04em;
@@ -477,20 +477,20 @@
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons .team-two__buttons-experience-years-count h3 {
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
 }
 
 .team-two__buttons-experience-years-text {
   font-size: 14px;
   font-weight: 500;
-  font-family: var(--Freshflow-font-two);
+  font-family: var(--workhomecompany-font-two);
   line-height: 18px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons .team-two__buttons-experience-years-text {
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
 }
 
 .team-two__buttons-img-box {
@@ -500,14 +500,14 @@
   justify-content: center;
   height: 70px;
   width: 70px;
-  border: 1px solid var(--Freshflow-base);
+  border: 1px solid var(--workhomecompany-base);
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons .team-two__buttons-img-box {
-  border: 1px solid var(--Freshflow-white);
+  border: 1px solid var(--workhomecompany-white);
 }
 
 .team-two__buttons-img {
@@ -545,11 +545,11 @@
 }
 
 .team-two__buttons-title a {
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons .team-two__buttons-title a {
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
 }
 
 .team-two__buttons-sub-title {
@@ -561,7 +561,7 @@
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons .team-two__buttons-sub-title {
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
 }
 
 .team-two__buttons-arrow {
@@ -576,16 +576,16 @@
   justify-content: center;
   height: 40px;
   width: 40px;
-  border: 1px solid var(--Freshflow-base);
+  border: 1px solid var(--workhomecompany-base);
   border-radius: 12px;
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
   font-size: 17px;
 }
 
 .team-two__main-tab-box .tab-buttons .tab-btn.active-btn .team-two__buttons .team-two__buttons-arrow a {
-  color: var(--Freshflow-black);
-  border: 1px solid var(--Freshflow-extra);
-  background-color: var(--Freshflow-extra);
+  color: var(--workhomecompany-black);
+  border: 1px solid var(--workhomecompany-extra);
+  background-color: var(--workhomecompany-extra);
 }
 
 .team-two__main-tab-box .tabs-content {
@@ -680,14 +680,14 @@
   border: 1px solid #626F82;
   border-radius: 50%;
   font-size: 17px;
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
   overflow: hidden;
   z-index: 1;
 }
 
 .team-two__social a:hover {
-  color: var(--Freshflow-white);
-  border: 1px solid var(--Freshflow-base);
+  color: var(--workhomecompany-white);
+  border: 1px solid var(--workhomecompany-base);
 }
 
 .team-two__social a:before {
@@ -697,7 +697,7 @@
   right: 0;
   bottom: 0;
   content: "";
-  background-color: var(--Freshflow-base);
+  background-color: var(--workhomecompany-base);
   border-radius: 50%;
   transform: scale(0.0);
   transform-origin: center;
@@ -774,7 +774,7 @@
 
 .team-details__img img {
   width: 100%;
-  border: 2px solid var(--Freshflow-white);
+  border: 2px solid var(--workhomecompany-white);
   border-radius: 27px;
 }
 
@@ -782,7 +782,7 @@
   position: absolute;
   bottom: 40px;
   left: 0;
-  background-color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-white);
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   padding: 13px 15px 10px;
@@ -800,7 +800,7 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px !important;
-  font-family: var(--Freshflow-font-two) !important;
+  font-family: var(--workhomecompany-font-two) !important;
   letter-spacing: -0.03em;
 }
 
@@ -808,8 +808,8 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px !important;
-  font-family: var(--Freshflow-font-two) !important;
-  color: var(--Freshflow-black);
+  font-family: var(--workhomecompany-font-two) !important;
+  color: var(--workhomecompany-black);
   position: relative;
   margin-left: 2px;
   margin-right: 6px;
@@ -819,8 +819,8 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 24px !important;
-  font-family: var(--Freshflow-font-two) !important;
-  color: var(--Freshflow-black);
+  font-family: var(--workhomecompany-font-two) !important;
+  color: var(--workhomecompany-black);
 }
 
 .team-details__count-text {
@@ -836,8 +836,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--Freshflow-base);
-  border: 3px solid var(--Freshflow-white);
+  background-color: var(--workhomecompany-base);
+  border: 3px solid var(--workhomecompany-white);
   border-radius: 50%;
 }
 
@@ -845,7 +845,7 @@
   position: relative;
   display: inline-block;
   font-size: 25px;
-  color: var(--Freshflow-white);
+  color: var(--workhomecompany-white);
 }
 
 .team-details__right {
@@ -879,8 +879,8 @@
 .team-details__sub-title {
   font-weight: 500;
   letter-spacing: -0.02em;
-  font-family: var(--Freshflow-font-two);
-  color: var(--Freshflow-base);
+  font-family: var(--workhomecompany-font-two);
+  color: var(--workhomecompany-base);
 }
 
 .team-details__social-box {
@@ -900,12 +900,12 @@
   border: 1px solid #E7E7E7;
   border-radius: 8px;
   font-size: 14px;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .team-details__social-box a:hover {
-  background-color: var(--Freshflow-base);
-  color: var(--Freshflow-white);
+  background-color: var(--workhomecompany-base);
+  color: var(--workhomecompany-white);
 }
 
 .team-details__title-1 {
@@ -922,7 +922,7 @@
 .team-details__location-list {
   position: relative;
   display: block;
-  background-color: rgba(var(--Freshflow-base-rgb), 0.05);
+  background-color: rgba(var(--workhomecompany-base-rgb), 0.05);
   border-radius: 12px;
   max-width: 360px;
   width: 100%;
@@ -950,15 +950,15 @@
 
 .team-details__location-list li p {
   font-weight: 500;
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .team-details__location-list li p a {
-  color: var(--Freshflow-black);
+  color: var(--workhomecompany-black);
 }
 
 .team-details__location-list li p a:hover {
-  color: var(--Freshflow-base);
+  color: var(--workhomecompany-base);
 }
 
 
