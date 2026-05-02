@@ -6,7 +6,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Home Page | Work Home Company </title> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- fonts --> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -54,8 +58,8 @@
 
 <body class="custom-cursor">
 
-    <div class="custom-cursor__cursor"></div>
-    <div class="custom-cursor__cursor-two"></div>
+    <div class="custom-cursor__cursor d-none d-md-block"></div>
+    <div class="custom-cursor__cursor-two d-none d-md-block"></div>
 
     <!--Start Preloader-->
     <div class="loader js-preloader">
@@ -65,10 +69,10 @@
     </div>
     <!--End Preloader-->
 
-    <div class="chat-icon"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></div>
+    <div class="chat-icon d-none d-md-block"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></div>
 
     <!--Chat Popup-->
-    <div id="chat-popup" class="chat-popup">
+    <div id="chat-popup" class="chat-popup d-none d-md-block">
         <div class="popup-inner">
             <div class="close-chat"><i class="fa fa-times"></i></div>
             <div class="chat-form">
@@ -93,7 +97,7 @@
     </div>
 
     <div class="page-wrapper">
-        <header class="main-header">
+        <header class="main-header d-none d-md-block">
             <div class="main-menu__top">
                 <div class="container">
                     <div class="main-menu__top-inner">
@@ -219,12 +223,12 @@
             </nav>
         </header>
 
-        <div class="stricky-header stricked-menu main-menu">
+        <div class="stricky-header stricked-menu main-menu d-none d-md-block">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
 
         <!-- Banner One Start -->
-        <section class="banner-one ">
+        <section class="banner-one d-none d-md-block">
             <div class="banner-one__shape-bg-1"
                 style="background-image: url(assets/images/shapes/banner-one-shape-bg-1.png);"></div>
 
@@ -316,7 +320,7 @@
         <!--Banner One End -->
 
         <!-- Sliding Text One Start -->
-        <section class="sliding-text-one">
+        <section class="sliding-text-one d-none d-md-block">
             <div class="sliding-text-one__wrap">
                 <ul class="sliding-text__list list-unstyled marquee_mode">
                     <li>
@@ -349,7 +353,7 @@
         <!-- Sliding Text One End -->
 
         <!-- About One Start -->
-        <section class="about-one">
+        <section class="about-one d-none d-md-block">
             <div class="about-one__bg-color"></div>
             <div class="about-one__shape-1"></div>
             <div class="about-one__shape-2"></div>
@@ -655,7 +659,7 @@
         <!-- Services One End -->
 
          <!--Services Two Start -->
-        <section class="services-two">
+        <section class="services-two d-none d-md-block">
             <div class="services-two__shape-bg-1"
                 style="background-image: url(assets/images/shapes/services-two-shape-bg-1.png);"></div>
             <div class="services-two__shape-bg-2"
@@ -795,7 +799,7 @@
 
 
         <!-- Sliding Text Two Start -->
-        <section class="sliding-text-two">
+        <section class="sliding-text-two d-none d-md-block">
             <div class="sliding-text-one__wrap">
                 <div class="before-after-two__sliding-text">
                 <ul class="before-after-two__sliding-text-list list-unstyled marquee_mode">
@@ -851,7 +855,7 @@
         <!-- Sliding Text Two End -->
 
         <!-- Counter One Start -->
-        <section class="counter-one">
+        <section class="counter-one d-none d-md-block">
             <div class="counter-one__bg-shape"
                 style="background-image: url(assets/images/shapes/counter-one-bg-shape.png);"></div>
             <div class="counter-one__shape-1 float-bob-y">
@@ -925,7 +929,7 @@
         <!-- Counter One End -->
 
         <!--Before And After Start-->
-        <section class="before-and-after">
+        <section class="before-and-after d-none d-md-block">
             <div class="before-and-after__bg-shape"
                 style="background-image: url(assets/images/shapes/before-and-after-bg-shape.png);"></div>
             <div class="before-and-after__shape-1 float-bob-y">
@@ -1014,7 +1018,7 @@
         <!--Before And After End-->
 
         <!--Why Choose One Start-->
-        <section class="why-choose-one">
+        <section class="why-choose-one d-none d-md-block">
             <div class="why-choose-one__bg-shape"
                 style="background-image: url(assets/images/shapes/why-choose-one-shape-bg-shape.png);"></div>
             <div class="why-choose-one__shape-2 float-bob-x">
@@ -1229,7 +1233,7 @@
         <!--Why Choose One End-->
 
         <!--Project One Start-->
-        <section class="project-one">
+        <section class="project-one d-none d-md-block">
             <div class="project-one__bg-shape"
                 style="background-image: url(assets/images/shapes/project-one-bg-shape.png);"></div>
             <div class="project-one__bg-shape-2"
@@ -1426,7 +1430,7 @@
         <!--Project One End-->
 
         <!--Team One Start-->
-        <section class="team-one">
+        <section class="team-one d-none d-md-block">
             <div class="team-one__shape-1 float-bob-y">
                 <img src="assets/images/shapes/team-one-shape-1.png" alt="">
             </div>
@@ -1610,7 +1614,7 @@
         <!--Team One End-->
 
         <!--Contact Two Start -->
-        <section class="contact-two">
+        <section class="contact-two d-none d-md-block">
             <div class="contact-two__bg" style="background-image: url(assets/images/backgrounds/contact-two-bg.jpg);">
             </div>
             <div class="contact-two__bg-color"></div>
@@ -1726,7 +1730,7 @@
         <!--Contact Two End -->
 
         <!--Testimonial One Start -->
-        <section class="testimonial-one">
+        <section class="testimonial-one d-none d-md-block">
             <div class="testimonial-one__shape-1">
                 <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
             </div>
@@ -2000,7 +2004,7 @@
         <!--Testimonial One End -->
 
         <!-- Brand One Start -->
-        <section class="brand-one">
+        <section class="brand-one d-none d-md-block">
             <div class="brand-one__wrap">
                 <ul class="brand-one__list list-unstyled marquee_mode-4">
                     <li>
@@ -2071,7 +2075,7 @@
         <!-- Brand One End -->
 
         <!--Office Location Start-->
-        <section class="office-location">
+        <section class="office-location d-none d-md-block">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4">
@@ -2208,7 +2212,7 @@
         <!--Office Location End--> 
 
                <!--Faq One Start -->
-        <section class="faq-one">
+        <section class="faq-one d-none d-md-block">
             <div class="faq-one__shape-1 float-bob-y">
                 <img src="assets/images/shapes/faq-one-shape-1.png" alt="">
             </div>
@@ -2329,7 +2333,7 @@
         <!--Faq One End -->
 
         <!--Blog One Start-->
-        <section class="blog-one">
+        <section class="blog-one d-none d-md-block">
             <div class="blog-one__shape-bg" style="background-image: url(assets/images/shapes/blog-one-shape-bg.png);">
             </div>
             <div class="container">
@@ -2462,7 +2466,7 @@
         <!--Blog One End-->
 
         <!--Newsletter One Start-->
-        <section class="newsletter-one">
+        <section class="newsletter-one d-none d-md-block">
             <div class="container">
                 <div class="newsletter-one__inner">
                     <div class="newsletter-one__shape-bg"
@@ -2523,7 +2527,7 @@
         <!--Newsletter One End-->
  
         <!--Site Footer Start-->
-        <footer class="site-footer">
+        <footer class="site-footer d-none d-md-block">
             <div class="site-footer__shape-bg float-bob-y"
                 style="background-image: url(assets/images/shapes/site-footer-shpae-bg.png);"></div>
             <div class="site-footer__shape-2 img-bounce">
@@ -2730,6 +2734,330 @@
             </div>
         </footer>
         <!--Site Footer End-->
+ 
+        <!-- Mobile Banner Slider — hidden on md and above -->
+        <section class="banner-mobile d-block d-md-none">
+        <div class="swiper mobile-banner-swiper">
+            <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="mobile-slide slide-orange"></div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="mobile-slide slide-blue"></div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="mobile-slide slide-green"></div>
+            </div>
+
+            </div>
+            <!-- Pagination dots -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Search Bar Overlapping Bottom -->
+        <div class="mobile-search-wrapper">
+            <div class="mobile-search-box">
+            <span class="search-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+            </span>
+            <input type="text" class="mobile-search-input" placeholder="What service do you need?" />
+            <button class="mobile-search-btn">Find Now</button>
+            </div>
+        </div>
+        </section>
+
+        <style>
+            /* ── Mobile Banner ── */
+                    .banner-mobile {
+                    position: relative;
+                    padding-bottom: 36px; /* space for overlapping search card */
+                    }
+
+                    .banner-mobile .mobile-banner-swiper {
+                    width: 100%;
+                    height: 230px; /* slightly increased from 200px */
+                    }
+
+                    .mobile-slide {
+                    width: 100%;
+                    height: 100%;
+                    }
+
+                    .slide-orange { background: linear-gradient(135deg, #f5a623, #f0b840); }
+                    .slide-blue   { background: linear-gradient(135deg, #1a7aff, #40c0ff); }
+                    .slide-green  { background: linear-gradient(135deg, #22c76e, #80f0b0); }
+
+                    /* Pagination dots */
+                    .banner-mobile .swiper-pagination {
+                    bottom: 30px !important; /* push dots up above search bar */
+                    }
+                    .banner-mobile .swiper-pagination-bullet {
+                    background: rgba(255,255,255,0.6);
+                    opacity: 1;
+                    }
+                    .banner-mobile .swiper-pagination-bullet-active {
+                    background: #fff;
+                    width: 18px;
+                    border-radius: 4px;
+                    }
+
+                    /* ── Search Bar ── */
+                    .mobile-search-wrapper {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    padding: 0 16px;
+                    z-index: 10;
+                    }
+
+                    .mobile-search-box {
+                    display: flex;
+                    align-items: center;
+                    background: #fff;
+                    border-radius: 50px;
+                    padding: 6px 6px 6px 14px;
+                    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.13);
+                    gap: 8px;
+                    }
+
+                    .search-icon {
+                    display: flex;
+                    align-items: center;
+                    flex-shrink: 0;
+                    }
+
+                    .mobile-search-input {
+                    flex: 1;
+                    border: none;
+                    outline: none;
+                    font-size: 14px;
+                    color: #333;
+                    background: transparent;
+                    padding: 4px 0;
+                    }
+
+                    .mobile-search-input::placeholder {
+                    color: #aaa;
+                    font-size: 14px;
+                    }
+
+                    .mobile-search-btn {
+                    background: #f5a623;
+                    color: #fff;
+                    border: none;
+                    border-radius: 50px;
+                    padding: 9px 20px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    white-space: nowrap;
+                    cursor: pointer;
+                    flex-shrink: 0;
+                    transition: background 0.2s;
+                    }
+
+                    .mobile-search-btn:hover {
+                    background: #e09510;
+                    }
+        </style>
+         <!-- ── Mobile Footer ── -->
+        <footer class="mobile-footer d-block d-md-none">
+            <ul class="footer-nav">
+        
+            <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link active" id="nav-home">
+                <div class="icon-wrap">
+                    <i class="bi bi-house-door"></i>
+                </div>
+                <span>Home</span>
+                </a>
+            </li>
+        
+            <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link" id="nav-bookings">
+                <div class="icon-wrap">
+                    <i class="bi bi-ticket-perforated"></i>
+                </div>
+                <span>Bookings</span>
+                </a>
+            </li>
+        
+            <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link" id="nav-requests">
+                <div class="icon-wrap">
+                    <i class="bi bi-bell-slash"></i>
+                </div>
+                <span>Requests</span>
+                </a>
+            </li>
+        
+            <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link" id="nav-categories">
+                <div class="icon-wrap">
+                    <i class="bi bi-grid"></i>
+                </div>
+                <span>Categories</span>
+                </a>
+            </li>
+        
+            <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link" id="nav-chat">
+                <div class="icon-wrap">
+                    <i class="bi bi-chat-dots"></i>
+                </div>
+                <span>Chat</span>
+                </a>
+            </li>
+        
+            </ul>
+        </footer>
+
+        <style>
+                    /* ── Page demo ── */
+                    body {
+                    background: #f5f5f5;
+                    font-family: 'Segoe UI', sans-serif;
+                    min-height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    }
+                
+                    .demo-content {
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #aaa;
+                    font-size: 1rem;
+                    padding-bottom: 80px;
+                    }
+                
+                    /* ── Footer bar ── */
+                    .mobile-footer {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    z-index: 1000;
+                    background: #fff;
+                    border-top: 1px solid #efefef;
+                    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.07);
+                    padding: 6px 0 env(safe-area-inset-bottom, 6px);
+                    }
+                
+                    /* ── Nav items ── */
+                    .footer-nav {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    }
+                
+                    .footer-nav-item {
+                    flex: 1;
+                    text-align: center;
+                    }
+                
+                    .footer-nav-link {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 4px;
+                    padding: 6px 4px;
+                    text-decoration: none;
+                    border-radius: 14px;
+                    margin: 0 4px;
+                    color: #9a9a9a;
+                    transition: color 0.22s ease, background 0.22s ease, transform 0.18s ease;
+                    -webkit-tap-highlight-color: transparent;
+                    user-select: none;
+                    }
+                
+                    /* icon wrapper */
+                    .footer-nav-link .icon-wrap {
+                    width: 42px;
+                    height: 36px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 12px;
+                    transition: background 0.22s ease, transform 0.18s ease;
+                    }
+                
+                    .footer-nav-link i {
+                    font-size: 1.45rem;
+                    line-height: 1;
+                    transition: transform 0.2s ease;
+                    }
+                
+                    .footer-nav-link span {
+                    font-size: 0.7rem;
+                    font-weight: 500;
+                    letter-spacing: 0.01em;
+                    transition: color 0.22s ease;
+                    }
+                
+                    /* ── Hover ── */
+                    .footer-nav-link:hover {
+                    color: #c87d3a;
+                    }
+                
+                    .footer-nav-link:hover .icon-wrap {
+                    background: rgba(200, 125, 58, 0.09);
+                    transform: translateY(-2px);
+                    }
+                
+                    .footer-nav-link:hover i {
+                    transform: scale(1.12);
+                    }
+                
+                    /* ── Active ── */
+                    .footer-nav-link.active {
+                    color: #c87d3a;
+                    }
+                
+                    .footer-nav-link.active .icon-wrap {
+                    background: rgba(200, 125, 58, 0.12);
+                    }
+                
+                    .footer-nav-link.active i {
+                    color: #c87d3a;
+                    }
+                
+                    .footer-nav-link.active span {
+                    font-weight: 700;
+                    }
+                
+                    /* tap ripple feel */
+                    .footer-nav-link:active .icon-wrap {
+                    transform: scale(0.92);
+                    background: rgba(200, 125, 58, 0.18);
+                    }
+                
+                    /* ── Constrain to mobile widths in desktop preview ── */
+                    @media (min-width: 576px) {
+                    .mobile-footer {
+                        max-width: 480px;
+                        left: 50%;
+                        right: auto;
+                        transform: translateX(-50%);
+                        border-radius: 20px 20px 0 0;
+                        border-left: 1px solid #efefef;
+                        border-right: 1px solid #efefef;
+                    }
+                    }
+        </style>
 
     </div><!-- /.page-wrapper -->
 
@@ -2775,7 +3103,7 @@
     <!-- /.mobile-nav__wrapper -->
 
     <!-- Search Popup -->
-    <div class="search-popup">
+    <div class="search-popup d-none d-md-block">
         <div class="color-layer"></div>
         <button class="close-search"><span class="far fa-times fa-fw"></span></button>
         <form method="post" action="blog.html">
@@ -2790,8 +3118,32 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
         <span class="scroll-to-top__text"> Go Back Top</span>
-    </a>
- 
+    </a> 
+
+<script>
+    new Swiper('.mobile-banner-swiper', {
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+</script>
+  <script>
+    // Active tab switching
+    const links = document.querySelectorAll('.footer-nav-link');
+    links.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        links.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
     <script src="assets/js/jquery-latest.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jarallax.min.js"></script>
